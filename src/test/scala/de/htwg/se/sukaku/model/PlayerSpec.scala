@@ -1,4 +1,4 @@
-package de.htwg.se.sudoku.model
+package de.htwg.se.sukaku.model
 
 import org.scalatest._
 
