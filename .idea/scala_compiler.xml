@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="Sukaku in Scala,de-htwg-se-sukaku_2082" />
+    <profile name="sbt 1" modules="de-htwg-se-sukaku_2082,Sukaku in Scala" />
   </component>
 </project>
