@@ -4,7 +4,7 @@
 		module="sukaku-in-scala$sources"
 		revision="0.1.0"
 		status="integration"
-		publication="20191017155055"
+		publication="20191018122719"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
