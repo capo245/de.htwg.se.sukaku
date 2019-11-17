@@ -10,11 +10,9 @@ bin/
 .idea/
 target/
 
-# VS Code
-.vscode/settings.json
-
 # Maven
 log/
+target/
 
 # Gradle
 .gradle/
@@ -23,12 +21,15 @@ pom.xml
 
 # sbt
 .cache
+.history
 .lib/
 dist/*
+target/
 lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+project/target/
 project/project/
 logs/
 project/.sbtserver
@@ -41,8 +42,5 @@ project/.sbtserver
 # Sonar
 .sonar/
 
-# Application log
-sudoku.log
-
-# Application backup
-grid.json
+# Application
+yourgame.log

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sukaku in Scala.iml" filepath="$PROJECT_DIR$/.idea/modules/Sukaku in Scala.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/de-htwg-se-sukaku-build.iml" filepath="$PROJECT_DIR$/.idea/modules/de-htwg-se-sukaku-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sukaku in Scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Sukaku in Scala-build.iml" />
     </modules>
   </component>
 </project>

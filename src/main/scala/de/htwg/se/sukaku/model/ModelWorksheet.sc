@@ -1,15 +1,10 @@
-case class Cell(x:Int, y:Int)
+import de.htwg.se.sukaku.model._
 
-val cell1 = Cell(4,5)
-cell1.x
-cell1.y
 
-case class Field(cells: Array[Cell])
+  val grid4 = new Grid(1)
 
-val field1 = Field(Array.ofDim[Cell](1))
-field1.cells(0)=cell1
-field1.cells(0).x
-field1.cells(0).y
+  grid4
 
-val list = 1 :: 2 :: 3 :: Nil
-// ein kommentar für den commit
+  val cell1 = Cell(0)
+  cell1.toString
+
