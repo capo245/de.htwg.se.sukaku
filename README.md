@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/capo245/de.htwg.se.sukaku.svg?branch=master)](https://travis-ci.com/capo245/de.htwg.se.sukaku)
+
 
 [![Coverage Status](https://coveralls.io/repos/github/capo245/de.htwg.se.sukaku/badge.svg?branch=master)](https://coveralls.io/github/capo245/de.htwg.se.sukaku?branch=master)
 
