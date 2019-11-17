@@ -1,4 +1,6 @@
 
+[![Coverage Status](https://coveralls.io/repos/github/capo245/de.htwg.se.sukaku/badge.svg?branch=master)](https://coveralls.io/github/capo245/de.htwg.se.sukaku?branch=master)
+
 Sukaku in Scala
 =========================
 
