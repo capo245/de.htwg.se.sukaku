@@ -1,4 +1,5 @@
 package de.htwg.se.sukaku.model
+//12 zellen werden geshadet für sukaku
 
 import scala.math.sqrt
 import scala.util.Random
@@ -9,6 +10,9 @@ case class Grid(cells: Matrix[Cell]) {
   val size: Int = cells.size
   val blocknum: Int = sqrt(size).toInt
 
+  //shade soll gesetzte zahlen ausblenden
+  def shade(row: Int, col: Int, value: Int): Grid = copy(cells.replaceCell(row, col, Cell(value)))
+  //
   def cell(row: Int, col: Int): Cell = cells.cell(row, col)
 
   def set(row: Int, col: Int, value: Int): Grid = copy(cells.replaceCell(row, col, Cell(value)))
