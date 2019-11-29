@@ -20,12 +20,12 @@ class GridCreator(size:Int) {
     val numAvailableValues = availableValueSet.size
     if (numAvailableValues > 0) {
       val value = availableValueSet(Random.nextInt(numAvailableValues))
-      if (value % 2 equals 0) {
-        grid.set(row, column, shade)
-      }
-      else {
+ //     if (value % 2 equals 0) {
+ //       grid.set(row, column, shade)
+ //     }
+ //     else {
         grid.set(row, column, value)
-      }
+ //     }
     } else grid
   }
 }
