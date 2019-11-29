@@ -13,13 +13,15 @@ class GridCreator(size:Int) {
   }
 
   private def setRandomCell(grid:Grid): Grid = {
+    val shade = 10
     val row = Random.nextInt(grid.size)
     val column = Random.nextInt(grid.size)
     val availableValueSet = grid.available(row, column).toIndexedSeq
     val numAvailableValues = availableValueSet.size
     if (numAvailableValues > 0) {
       val value = availableValueSet(Random.nextInt(numAvailableValues))
-      grid.set(row, column, value)
+      if (value % 2 equals 0) grid.set(row, column, shade)
+      else grid.set(row, column, value)
     } else grid
   }
 }
