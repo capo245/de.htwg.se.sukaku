@@ -1,21 +1,23 @@
 package de.htwg.se.sukaku
 
-import de.htwg.se.sukaku.controller.Controller
 import de.htwg.se.sukaku.aview.Tui
+import de.htwg.se.sukaku.aview.gui.SwingGui
+import de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl.Controller
 import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
 
 import scala.io.StdIn.readLine
 
-object Sudoku {
-  val controller = new Controller(new Grid(9))
+object Sukaku {
+  val defaultsize=9
+  val controller = new Controller(new Grid(defaultsize))
   val tui = new Tui(controller)
-  controller.notifyObservers
+  val gui = new SwingGui(controller)
+  controller.createRandomGrid(9,9)
 
   def main(args: Array[String]): Unit = {
-    var input: String = args(0)
+    var input: String = ""
 
-    if (!input.isEmpty) tui.processInputLine(input)
-    else do {
+    do {
       input = readLine()
       tui.processInputLine(input)
     } while (input != "q")
