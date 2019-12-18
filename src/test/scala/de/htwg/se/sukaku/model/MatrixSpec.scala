@@ -1,5 +1,6 @@
 package de.htwg.se.sukaku.model
 
+import de.htwg.se.sukaku.model.gridComponent.gridBaseImpl.{Cell, Matrix}
 import org.scalatest.{Matchers, WordSpec}
 
 class MatrixSpec extends WordSpec with Matchers {

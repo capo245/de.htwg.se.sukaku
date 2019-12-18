@@ -1,7 +1,7 @@
 package de.htwg.se.sukaku.controller
 
 import de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl.Controller
-import de.htwg.se.sukaku.model.Grid
+import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
 import de.htwg.se.sukaku.util.Observer
 
 import scala.language.reflectiveCalls

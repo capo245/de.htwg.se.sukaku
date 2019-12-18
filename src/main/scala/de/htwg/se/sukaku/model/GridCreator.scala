@@ -1,5 +1,7 @@
 package de.htwg.se.sukaku.model
 
+import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
+
 import scala.util.Random
 
 class GridCreator(size:Int) {

@@ -1,6 +1,7 @@
 package de.htwg.se.sukaku.subsystem
 
-import de.htwg.se.sukaku.model.{Grid, GridCreator}
+import de.htwg.se.sukaku.model.GridCreator
+import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
 import de.htwg.se.sukaku.util.Observable
 
 class GridHandler(var grid:Grid) extends Observable {

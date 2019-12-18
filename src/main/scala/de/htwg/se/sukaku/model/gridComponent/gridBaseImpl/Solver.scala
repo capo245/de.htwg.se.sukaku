@@ -1,4 +1,6 @@
-package de.htwg.se.sukaku.model
+package de.htwg.se.sukaku.model.gridComponent.gridBaseImpl
+
+import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
 
 import scala.util.Random
 

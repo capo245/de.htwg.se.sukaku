@@ -1,5 +1,7 @@
 package de.htwg.se.sukaku.model
 
+import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
+import de.htwg.se.sukaku.model.gridComponent.gridBaseImpl.Solver
 import org.scalatest.{Matchers, WordSpec}
 
 class GridSolverSpec extends WordSpec with Matchers {
