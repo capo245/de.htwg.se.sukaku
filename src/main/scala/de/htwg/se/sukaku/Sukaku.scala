@@ -1,6 +1,5 @@
 package de.htwg.se.sukaku
 
-import de.htwg.se.sukaku.model.{GridCreator, Player}
 import de.htwg.se.sukaku.controller.Controller
 import de.htwg.se.sukaku.aview.Tui
 import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid

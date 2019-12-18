@@ -1,7 +1,7 @@
 package de.htwg.se.sukaku.util
 
 trait Observer {
-  def update: Boolean
+  def update: Unit
 }
 
 class Observable {
