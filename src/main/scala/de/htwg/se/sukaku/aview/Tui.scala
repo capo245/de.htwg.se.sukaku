@@ -24,11 +24,11 @@ class Tui(controller: ControllerInterface) extends Reactor{
       case "+" => controller.resize(4)
       case "#" => controller.resize(9)
       case _ => input.toList.filter(c => c != ' ').map(c => c.toString.toInt) match {
-        case row :: col :: value :: Nil => controller.set(row, col, value)
-        case row :: col::Nil => controller.showCandidates(row, col)
-        case index::Nil => controller.highlight(index)
-        case _ =>
-      }
+          case row :: col :: value :: Nil => controller.set(row, col, value)
+          case row :: col::Nil => controller.showCandidates(row, col)
+          case index::Nil => controller.highlight(index)
+          case _ =>
+        }
 
     }
   }

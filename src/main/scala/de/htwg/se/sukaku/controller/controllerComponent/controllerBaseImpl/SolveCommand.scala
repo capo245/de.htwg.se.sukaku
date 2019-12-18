@@ -4,6 +4,7 @@ import de.htwg.se.sukaku.model.gridComponent.GridInterface
 import de.htwg.se.sukaku.util.Command
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus._
 
+
 class SolveCommand(controller: Controller) extends Command {
   var memento: GridInterface = controller.grid
   override def doStep: Unit = {

@@ -69,8 +69,8 @@ case class Grid(cells: Matrix[Cell]) extends GridInterface{
 
   def isSymmetric:Boolean = {
     val resultList:IndexedSeq[Boolean] = for (row<- 0 until size; col <- 0 until size) yield {
-      if((cell(row, col).isSet == true && symmetricCell(row, col).isSet == true) || (cell(row, col).isSet == false && symmetricCell(row, col).isSet == false)) true else false
-    }
+        if((cell(row, col).isSet == true && symmetricCell(row, col).isSet == true) || (cell(row, col).isSet == false && symmetricCell(row, col).isSet == false)) true else false
+      }
     resultList.forall(_==true)
   }
 

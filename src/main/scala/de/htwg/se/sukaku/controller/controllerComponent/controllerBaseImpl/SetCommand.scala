@@ -9,3 +9,5 @@ class SetCommand(row:Int, col: Int, value:Int, controller: Controller) extends C
 
   override def redoStep: Unit = controller.grid = controller.grid.set(row, col, value)
 }
+
+
