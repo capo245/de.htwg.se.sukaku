@@ -1,7 +1,6 @@
 package de.htwg.se.sukaku.controller.controllerComponent
 
 class ControllerInterface {
-  package de.htwg.se.sukaku.controller.controllerComponent
 
   import de.htwg.se.sukaku.controller.controllerComponent.GameStatus.GameStatus
   import de.htwg.se.sukaku.model.gridComponent.CellInterface
