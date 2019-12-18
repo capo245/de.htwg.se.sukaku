@@ -1,8 +1,8 @@
 package de.htwg.se.sukaku
 
 import de.htwg.se.sukaku.model.{Grid, GridCreator, Player, Solver}
-import de.htwg.se.sukaku.controller.Controller
 import de.htwg.se.sukaku.aview.Tui
+import de.htwg.se.sukaku.controller.controllerComponent.Controller
 
 import scala.io.StdIn.readLine
 

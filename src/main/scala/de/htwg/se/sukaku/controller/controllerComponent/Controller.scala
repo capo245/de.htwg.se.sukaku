@@ -1,7 +1,7 @@
-package de.htwg.se.sukaku.controller
+package de.htwg.se.sukaku.controller.controllerComponent
 
 import de.htwg.se.sukaku.fascade.GridControllerFacade
-import de.htwg.se.sukaku.model.{Grid, GridCreator, Solver}
+import de.htwg.se.sukaku.model.{Grid, Solver}
 import de.htwg.se.sukaku.util.Observable
 
 class Controller(var grid:Grid) extends Observable{

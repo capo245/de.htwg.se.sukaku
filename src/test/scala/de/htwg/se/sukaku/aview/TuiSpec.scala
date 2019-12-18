@@ -1,8 +1,7 @@
 package de.htwg.se.sukaku.aview
 
-import de.htwg.se.sukaku.controller.Controller
+import de.htwg.se.sukaku.controller.controllerComponent.Controller
 import de.htwg.se.sukaku.model.Grid
-
 import org.scalatest.{Matchers, WordSpec}
 
 class TuiSpec  extends WordSpec with Matchers{

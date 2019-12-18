@@ -1,5 +1,6 @@
 package de.htwg.se.sukaku.controller
 
+import de.htwg.se.sukaku.controller.controllerComponent.Controller
 import de.htwg.se.sukaku.model.Grid
 import de.htwg.se.sukaku.util.Observer
 
