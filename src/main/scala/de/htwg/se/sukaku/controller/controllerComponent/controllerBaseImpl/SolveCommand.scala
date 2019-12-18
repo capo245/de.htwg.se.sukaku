@@ -3,7 +3,6 @@ package de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl
 import de.htwg.se.sukaku.model.gridComponent.GridInterface
 import de.htwg.se.sukaku.util.Command
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus._
- //Doesnt work
 
 class SolveCommand(controller: Controller) extends Command {
   var memento: GridInterface = controller.grid
