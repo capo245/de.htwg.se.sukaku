@@ -6,7 +6,7 @@ import de.htwg.se.sukaku.aview.Tui
 
 import scala.io.StdIn.readLine
 
-object Sudoku {
+object Sukaku {
   val controller = new Controller(new Grid(9))
   val tui = new Tui(controller)
   controller.notifyObservers
