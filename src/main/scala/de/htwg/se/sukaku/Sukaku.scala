@@ -1,12 +1,12 @@
 package de.htwg.se.sukaku
 
 import de.htwg.se.sukaku.model.{Grid, GridCreator, Player, Solver}
+import de.htwg.se.sukaku.controller.Controller
 import de.htwg.se.sukaku.aview.Tui
-import de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl.Controller
 
 import scala.io.StdIn.readLine
 
-object Sukaku {
+object Sudoku {
   val controller = new Controller(new Grid(9))
   val tui = new Tui(controller)
   controller.notifyObservers

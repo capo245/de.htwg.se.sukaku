@@ -1,30 +1,53 @@
 package de.htwg.se.sukaku.aview
 
-import de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl.Controller
-import de.htwg.se.sukaku.model.{Grid, GridCreator, Solver}
-import de.htwg.se.sukaku.util.Observer
+import de.htwg.se.sukaku.controller.controllerComponent.ControllerInterface
+import de.htwg.se.sukaku.controller.controllerComponent.GameStatus
+import de.htwg.se.sukaku.controller.controllerComponent.{GridSizeChanged, CellChanged, CandidatesChanged}
 
-class Tui(controller: Controller) extends Observer{
+import scala.swing.Reactor
 
-  controller.add(this)
-  val size = 9
-  val randomCells:Int = size*size/8
+class Tui(controller: ControllerInterface) extends Reactor{
+
+  listenTo(controller)
+  def size = controller.gridSize
+  def randomCells:Int = size*size/8
 
   def processInputLine(input: String):Unit = {
     input match {
       case "q" =>
       case "n"=> controller.createEmptyGrid(size)
       case "r" => controller.createRandomGrid(size, randomCells)
-      case "s" =>
-        val success= controller.solve
-        if (success) println("Puzzle solved")else println("This puzzle could not be solved!")
-      case _ => input.toList.filter(c => c != ' ').filter(_.isDigit).map(c => c.toString.toInt) match {
-          case row :: column :: value :: Nil => controller.set(row, column, value)
-          case _ => println("Wrong input!")
-        }
+      case "z" => controller.undo
+      case "y" => controller.redo
+      case "s" => controller.solve
+      case "." => controller.resize(1)
+      case "+" => controller.resize(4)
+      case "#" => controller.resize(9)
+      case _ => input.toList.filter(c => c != ' ').map(c => c.toString.toInt) match {
+        case row :: col :: value :: Nil => controller.set(row, col, value)
+        case row :: col::Nil => controller.showCandidates(row, col)
+        case index::Nil => controller.highlight(index)
+        case _ =>
+      }
 
     }
   }
 
-  override def update: Boolean = { println(controller.gridToString);true}
+  reactions += {
+    case event: GridSizeChanged => printTui
+    case event: CellChanged     => printTui
+    case event: CandidatesChanged => printCandidates
+  }
+
+  def printTui: Unit = {
+    println(controller.gridToString)
+    println(GameStatus.message(controller.gameStatus))
+  }
+
+  def printCandidates: Unit = {
+    println("Candidates: ")
+    for (row <- 0 until size; col <- 0 until size) {
+      if (controller.isShowCandidates(row, col)) println("("+row+","+col+"):"+controller.available(row, col).toList.sorted)
+    }
+  }
 }
