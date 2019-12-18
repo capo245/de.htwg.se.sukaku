@@ -5,28 +5,40 @@ import de.htwg.se.sukaku.controller.controllerComponent._
 import de.htwg.se.sukaku.model.gridComponent.GridInterface
 import de.htwg.se.sukaku.model.gridComponent.gridBaseImpl.Grid
 import de.htwg.se.sukaku.util.UndoManager
+import de.htwg.se.sukaku.model.gridComponent.gridBaseImpl.Grid
+
+
+import de.htwg.se.sukaku.fascade.GridControllerFacade
+
 
 import scala.swing.Publisher
 
 class Controller(var grid: GridInterface) extends ControllerInterface with Publisher {
+  var facade = new GridControllerFacade(grid)
+  //
+  //var grid2 : Grid
+  //var facade = new GridControllerFacade(grid2)
 
   var gameStatus: GameStatus = IDLE
   var showAllCandidates: Boolean = false
   private val undoManager = new UndoManager
 
   def createEmptyGrid(size: Int): Unit = {
-    grid = new Grid(size)
+    //grid = new Grid(size)
+    facade.gridfacade(size, 0, 0, 0, 0, "empty")
     publish(new CellChanged)
   }
 
   def resize(newSize:Int) :Unit = {
-    grid = new Grid(newSize)
+    //grid = new Grid(newSize)
+    facade.gridfacade(newSize, 0, 0, 0, 0, "empty")
     gameStatus=RESIZE
     publish(new GridSizeChanged(newSize))
   }
 
   def createRandomGrid(size: Int, randomCells: Int): Unit = {
-    grid = grid.createNewGrid(size)
+    //grid = grid.createNewGrid(size)
+    facade.gridfacade(size, randomCells, 0, 0, 0, "random")
     gameStatus = NEW
     publish(new CellChanged)
   }
@@ -38,7 +50,7 @@ class Controller(var grid: GridInterface) extends ControllerInterface with Publi
     gameStatus = SET
     publish(new CellChanged)
   }
-
+  //
   def solve: Unit = {
     undoManager.doStep(new SolveCommand(this))
     gameStatus = SOLVED
