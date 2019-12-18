@@ -1,4 +1,4 @@
-package de.htwg.se.sukaku.controller.controllerComponent
+package de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl
 
 import de.htwg.se.sukaku.fascade.GridControllerFacade
 import de.htwg.se.sukaku.model.{Grid, Solver}

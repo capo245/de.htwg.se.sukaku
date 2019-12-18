@@ -1,6 +1,6 @@
 package de.htwg.se.sukaku.aview
 
-import de.htwg.se.sukaku.controller.controllerComponent.Controller
+import de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl.Controller
 import de.htwg.se.sukaku.model.Grid
 import org.scalatest.{Matchers, WordSpec}
 
