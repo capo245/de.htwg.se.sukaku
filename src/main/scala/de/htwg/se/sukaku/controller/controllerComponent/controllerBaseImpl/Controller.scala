@@ -31,14 +31,14 @@ class Controller(var grid: GridInterface) extends ControllerInterface with Publi
 
   def resize(newSize:Int) :Unit = {
     //grid = new Grid(newSize)
-    facade.gridfacade(newSize, 0, 0, 0, 0, "empty")
+    grid = facade.gridfacade(newSize, 0, 0, 0, 0, "empty")
     gameStatus=RESIZE
     publish(new GridSizeChanged(newSize))
   }
 
   def createRandomGrid(size: Int, randomCells: Int): Unit = {
     //grid = grid.createNewGrid(size)
-    facade.gridfacade(size, randomCells, 0, 0, 0, "random")
+    grid = facade.gridfacade(size, randomCells, 0, 0, 0, "random")
     gameStatus = NEW
     publish(new CellChanged)
   }

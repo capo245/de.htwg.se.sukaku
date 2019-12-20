@@ -12,13 +12,14 @@ import de.htwg.se.sukaku.model.gridComponent.GridInterface
 import scala.swing.Publisher
 
 class GridControllerFacade(var grid: GridInterface) {
-  def gridfacade(size:Int, randomCells:Int, row:Int, col:Int, value:Int, gtype:String): Unit = {
+  def gridfacade(size:Int, randomCells:Int, row:Int, col:Int, value:Int, gtype:String): GridInterface = {
     var handle = new GridHandler(grid)
     if(gtype.equals("empty"))
-      handle.createEmptyGrid(size)
+      grid = handle.createEmptyGrid(size)
     if(gtype.equals("random")) {
-      handle.createRandomGrid(size, randomCells)
+      grid = handle.createRandomGrid(size, randomCells)
     }
+    grid
   }
 
 

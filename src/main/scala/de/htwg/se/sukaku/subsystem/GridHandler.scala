@@ -17,15 +17,16 @@ class GridHandler(var grid: GridInterface) {
   var showAllCandidates: Boolean = false
   private val undoManager = new UndoManager
 
-  def createEmptyGrid(size: Int): Unit = {
-    grid = new Grid(size)
-  }
-  def createRandomGrid(size: Int, randomCells: Int): Unit = {
-    grid = grid.createNewGrid(size)
+  def createEmptyGrid(size: Int): GridInterface ={
+    new Grid(size)
   }
 
-  def resize(newSize:Int) :Unit = {
-    grid = new Grid(newSize)
+  def createRandomGrid(size: Int, randomCells: Int): GridInterface = {
+    grid.createNewGrid(size)
+  }
+
+  def resize(newSize:Int):GridInterface = {
+    new Grid(newSize)
   }
 
   def gridToString: String = grid.toString
