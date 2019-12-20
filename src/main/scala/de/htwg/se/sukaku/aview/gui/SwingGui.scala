@@ -37,9 +37,9 @@ class SwingGui(controller: ControllerInterface) extends Frame {
       outerRow <- 0 until controller.blockSize
       outerColumn <- 0 until controller.blockSize
     } {
-      // fix ?
-      contents += new GridPanel((controller.blockSize) - 1, (controller.blockSize)) {
-        border = LineBorder(java.awt.Color.BLUE, 2)
+      // fix ? check result
+      contents += new GridPanel((controller.blockSize - 1), (controller.blockSize)) {
+        border = LineBorder(java.awt.Color.YELLOW, 2)
         for {
           innerRow <- 0 until (controller.blockSize)
           innerColumn <- 0 until (controller.blockSize)
