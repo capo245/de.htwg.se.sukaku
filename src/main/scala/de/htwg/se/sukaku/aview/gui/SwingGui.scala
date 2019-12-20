@@ -40,8 +40,8 @@ class SwingGui(controller: ControllerInterface) extends Frame {
       contents += new GridPanel(controller.blockSize, controller.blockSize) {
         border = LineBorder(java.awt.Color.BLUE, 2)
         for {
-          innerRow <- 0 until controller.blockSize
-          innerColumn <- 0 until controller.blockSize
+          innerRow <- 0 until (controller.blockSize)
+          innerColumn <- 0 until (controller.blockSize -1)
         } {
           val x = outerRow * controller.blockSize + innerRow
           val y = outerColumn * controller.blockSize + innerColumn
