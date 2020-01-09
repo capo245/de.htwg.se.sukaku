@@ -18,8 +18,8 @@ object Sukaku {
   val controller: ControllerInterface = injector.getInstance(classOf[ControllerInterface])
   val tui = new Tui(controller)
   val gui = new SwingGui(controller)
-  controller.createRandomGrid(9,9)
-  //controller.createNewGrid
+  //controller.createRandomGrid(9,9)
+  controller.createNewGrid
   def main(args: Array[String]): Unit = {
     var input: String = ""
 

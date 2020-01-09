@@ -17,6 +17,8 @@ class Controller(var grid: GridInterface) extends ControllerInterface{
   override def createEmptyGrid(size: Int): Unit = {}
 
   override def createRandomGrid(size: Int, randomCells: Int): Unit = {}
+  //Added
+  override def createNewGrid: Unit = {}
 
   override def undo: Unit = {}
 

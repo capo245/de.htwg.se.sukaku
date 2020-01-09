@@ -48,6 +48,20 @@ class Controller @Inject() (var grid: GridInterface) extends ControllerInterface
     publish(new CellChanged)
   }
 
+  //Added
+  override def createNewGrid: Unit = {
+    grid.size match {
+      case 1 => grid = injector.instance[GridInterface](Names.named("tiny"))
+      case 4 => grid = injector.instance[GridInterface](Names.named("small"))
+      case 9 => grid = injector.instance[GridInterface](Names.named("normal"))
+      case _ =>
+    }
+    val size = grid.size
+    grid = grid.createNewGrid(size): GridInterface
+    gameStatus = NEW
+    publish(new CellChanged)
+  }
+
   def gridToString: String = grid.toString
 
   def set(row: Int, col: Int, value: Int): Unit = {
