@@ -1,5 +1,9 @@
 package de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl
 
+import com.google.inject.name.Names
+import com.google.inject.{Guice, Inject}
+import net.codingwell.scalaguice.InjectorExtensions._
+import de.htwg.se.sukaku.SukakuModule
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus._
 import de.htwg.se.sukaku.controller.controllerComponent._
 import de.htwg.se.sukaku.model.gridComponent.GridInterface
@@ -13,7 +17,7 @@ import de.htwg.se.sukaku.fascade.GridControllerFacade
 
 import scala.swing.Publisher
 
-class Controller(var grid: GridInterface) extends ControllerInterface with Publisher {
+class Controller @Inject() (var grid: GridInterface) extends ControllerInterface with Publisher {
   var facade = new GridControllerFacade(grid)
   //
   //var grid2 : Grid
@@ -22,6 +26,7 @@ class Controller(var grid: GridInterface) extends ControllerInterface with Publi
   var gameStatus: GameStatus = IDLE
   var showAllCandidates: Boolean = false
   private val undoManager = new UndoManager
+  val injector = Guice.createInjector(new SukakuModule)
 
   def createEmptyGrid(size: Int): Unit = {
     //grid = new Grid(size)
