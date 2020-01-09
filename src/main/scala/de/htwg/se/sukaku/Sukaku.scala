@@ -1,6 +1,6 @@
 package de.htwg.se.sukaku
 
-import com.google.inject.Guice
+import com.google.inject.{Guice, Injector}
 import de.htwg.se.sukaku.aview.Tui
 import de.htwg.se.sukaku.aview.gui.SwingGui
 import de.htwg.se.sukaku.controller.controllerComponent.ControllerInterface
@@ -13,9 +13,9 @@ import scala.io.StdIn.readLine
 object Sukaku {
   //moved to module
   //val defaultsize=9
-  val injector = Guice.createInjector(new SukakuModule: SukakuModule)
+  val injector: Injector = Guice.createInjector(new SukakuModule: SukakuModule)
   //val controller = new Controller(new Grid(defaultsize))
-  val controller = injector.getInstance(classOf[ControllerInterface])
+  val controller: ControllerInterface = injector.getInstance(classOf[ControllerInterface])
   val tui = new Tui(controller)
   val gui = new SwingGui(controller)
   controller.createRandomGrid(9,9)
