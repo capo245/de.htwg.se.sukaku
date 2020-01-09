@@ -3304,31 +3304,31 @@
 [debug] == resolving dependencies for de.htwg.se#sukaku-in-scala$sources;0.6.0 [scoveragePlugin]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.12;2.0.3!scala-swing_2.12.jar(src)
-[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-multibindings;4.1.0!guice-multibindings.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src)
-[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.1!jsr305.jar(src)
-[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
-[debug] 	[NOT REQUIRED] net.codingwell#scala-guice_2.12;4.1.0!scala-guice_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
-[debug] :: resolution report :: resolve 476ms :: artifacts dl 28ms
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] net.codingwell#scala-guice_2.12;4.1.0!scala-guice_2.12.jar(src)
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.12;2.0.3!scala-swing_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-multibindings;4.1.0!guice-multibindings.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.1!jsr305.jar(src)
+[debug] :: resolution report :: resolve 415ms :: artifacts dl 27ms
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 compile produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-compile.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 runtime produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-runtime.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 test produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-test.xml
@@ -3341,4 +3341,4 @@
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 pom produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-pom.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scala-tool produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-scala-tool.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scoveragePlugin produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-scoveragePlugin.xml
-[debug] 	resolve done (476ms resolve - 28ms download)
+[debug] 	resolve done (415ms resolve - 27ms download)

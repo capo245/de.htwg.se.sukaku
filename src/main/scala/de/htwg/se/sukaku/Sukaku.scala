@@ -6,6 +6,7 @@ import de.htwg.se.sukaku.controller.controllerComponent.controllerBaseImpl.Contr
 import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
 
 import scala.io.StdIn.readLine
+//Bug punkte weg machen
 
 object Sukaku {
   val defaultsize=9
