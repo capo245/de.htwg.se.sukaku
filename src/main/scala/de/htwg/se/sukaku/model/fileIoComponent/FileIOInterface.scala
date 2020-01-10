@@ -1,5 +1,10 @@
 package de.htwg.se.sukaku.model.fileIoComponent
 
-class FileIOInterface {
+import de.htwg.se.sukaku.model.gridComponent.GridInterface
+
+trait FileIOInterface {
+
+  def load: GridInterface
+  def save(grid: GridInterface): Unit
 
 }
