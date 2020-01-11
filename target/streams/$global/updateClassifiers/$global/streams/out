@@ -56,6 +56,21 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9
@@ -78,13 +93,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->default(compile)]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.1.1 {compile=[default(compile)], runtime=[default(compile)], test=[default(compile), default, compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[default(compile)], runtime-internal=[default(compile)], test-internal=[default(compile), default, compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.1.1
-[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.1.1 in sbt-chain
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;19.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;19.0
@@ -183,13 +191,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-reflect;2.12.7 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-reflect;2.12.7 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7
 [debug] 	found org.scala-lang#scala-library;2.12.7 in sbt-chain
 [debug] 	[2.12.7] org.scala-lang#scala-library;2.12.7
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
@@ -308,6 +317,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -324,10 +345,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -404,6 +421,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
@@ -504,6 +522,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -520,10 +550,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -600,6 +626,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
@@ -708,6 +735,22 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -724,14 +767,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->runtime(*)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->master(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -808,6 +843,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
@@ -908,6 +944,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -924,10 +972,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -1004,6 +1048,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
@@ -1123,6 +1168,22 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
@@ -1139,22 +1200,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->default]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime(*)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile(*)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
@@ -1231,6 +1276,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->compile]
@@ -1338,6 +1384,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -1354,10 +1412,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -1434,6 +1488,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
@@ -1536,6 +1591,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile-internal->compile]
@@ -1552,10 +1619,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile-internal->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile-internal->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile-internal->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile-internal->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile-internal->compile]
@@ -1632,6 +1695,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile-internal->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile-internal->compile]
@@ -1736,6 +1800,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -1752,10 +1828,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -1832,6 +1904,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
@@ -1932,6 +2005,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -1948,10 +2033,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -2028,6 +2109,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
@@ -2129,6 +2211,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime-internal->compile]
@@ -2145,10 +2239,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime-internal->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime-internal->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime-internal->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime-internal->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime-internal->compile]
@@ -2225,6 +2315,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime-internal->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime-internal->compile]
@@ -2330,6 +2421,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -2346,10 +2449,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -2426,6 +2525,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [compile->compile]
@@ -2526,6 +2626,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -2542,10 +2654,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -2622,6 +2730,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [runtime->compile]
@@ -2738,6 +2847,22 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
@@ -2754,22 +2879,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->default]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime(*)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->compile(*)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
@@ -2846,6 +2955,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test->compile]
@@ -2964,6 +3074,22 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.play#play-json_2.12;2.6.6 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test-internal->compile]
@@ -2980,22 +3106,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test-internal->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->default]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->runtime(*)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->master(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->default(compile)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->runtime]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->compile]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->master]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->compile(*)]
-[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.1.1 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test-internal->compile]
@@ -3072,6 +3182,7 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test-internal->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test-internal->master(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-library;2.12.7 [test-internal->compile]
@@ -3152,9 +3263,6 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
-[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
@@ -3196,38 +3304,415 @@
 [debug] == resolving dependencies for de.htwg.se#sukaku-in-scala$sources;0.6.0 [scoveragePlugin]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-multibindings;4.1.0!guice-multibindings.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar(src)
-[debug] 		tried C:\Users\Administrator\.ivy2\local\org.scala-lang.modules\scala-xml_2.12\1.1.1\srcs\scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1-sources.jar
-[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.1!jsr305.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(src)
-[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1-sources.jar
-[debug] 	[NOT REQUIRED] net.codingwell#scala-guice_2.12;4.1.0!scala-guice_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.12;2.0.3!scala-swing_2.12.jar(src)
-[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.1.1!scala-xml_2.12.jar(src) (148ms)
-[debug] :: resolution report :: resolve 667ms :: artifacts dl 167ms
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] net.codingwell#scala-guice_2.12;4.1.0!scala-guice_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.12;2.0.3!scala-swing_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-multibindings;4.1.0!guice-multibindings.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Administrator\.ivy2
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (62ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (90ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (205ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (264ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (283ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (306ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (319ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (335ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (333ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (391ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (397ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (416ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (511ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (470ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (383ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (511ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (417ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (429ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (552ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Administrator\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (446ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (485ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (502ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (531ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Administrator/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.3/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (501ms)
+[debug] 	default cache: C:\Users\Administrator\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 1625ms :: artifacts dl 719ms
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 compile produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-compile.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 runtime produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-runtime.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 test produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-test.xml
@@ -3240,4 +3725,4 @@
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 pom produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-pom.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scala-tool produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-scala-tool.xml
 [debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scoveragePlugin produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-scoveragePlugin.xml
-[debug] 	resolve done (667ms resolve - 167ms download)
+[debug] 	resolve done (1625ms resolve - 719ms download)

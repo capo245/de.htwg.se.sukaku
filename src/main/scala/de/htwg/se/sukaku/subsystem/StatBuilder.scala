@@ -31,7 +31,17 @@ case class GameStatBuilder[I <: GameInfo](Name: String = "",  Playtime: BigInt =
 
   def build(implicit ev: I =:= subsystem.GameInfo.MandatoryInfo): GameStat =
     GameStat(Name, Playtime, DateOfSession)
+
+  override def toString: String = Name.toString.replace(' ', '_')
 }
 
 case class GameStat(name: String,  playtime: BigInt, date: Date)
 
+
+/*
+object GameStat {
+  import play.api.libs.json._
+  implicit val statWrites = Json.writes[GameStat]
+  implicit val statReads = Json.reads[GameStat]
+}
+ */

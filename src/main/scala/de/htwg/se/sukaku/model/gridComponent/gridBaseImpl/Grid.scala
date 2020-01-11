@@ -1,10 +1,11 @@
 package de.htwg.se.sukaku.model.gridComponent.gridBaseImpl
 
 import de.htwg.se.sukaku.model.gridComponent.GridInterface
+import play.api.libs.json._
 
 import scala.math.sqrt
 
-case class Grid(cells: Matrix[Cell]) extends GridInterface{
+case class Grid (cells: Matrix[Cell]) extends GridInterface{
 
   def this(size: Int) = this(new Matrix[Cell](size, Cell(0)))
 
@@ -108,6 +109,5 @@ case class Grid(cells: Matrix[Cell]) extends GridInterface{
   override def createNewGrid(size: Int): GridInterface = (new GridCreateRandomStrategy).createNewGrid(size)
 
   override def solve: (Boolean, GridInterface) = new Solver(this).solve
+
 }
-
-
