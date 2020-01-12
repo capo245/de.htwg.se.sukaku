@@ -1,12 +1,14 @@
 package de.htwg.se.sukaku.aview
 
+import com.typesafe.scalalogging.{LazyLogging, Logger}
+
 import de.htwg.se.sukaku.controller.controllerComponent.ControllerInterface
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus
 import de.htwg.se.sukaku.controller.controllerComponent.{GridSizeChanged, CellChanged, CandidatesChanged}
 
 import scala.swing.Reactor
 
-class Tui(controller: ControllerInterface) extends Reactor{
+class Tui(controller: ControllerInterface) extends Reactor with LazyLogging{
 
   listenTo(controller)
   def size = controller.gridSize
