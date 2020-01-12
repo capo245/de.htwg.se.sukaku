@@ -93,6 +93,21 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.2.3 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.2.3
+[debug] 	found ch.qos.logback#logback-classic;1.2.3 in sbt-chain
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;19.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;19.0
@@ -126,6 +141,17 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.25 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.25
+[debug] 	found org.slf4j#slf4j-api;1.7.25 in sbt-chain
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.8.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.8.9
@@ -137,6 +163,21 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.scala-logging#scala-logging_2.12;3.9.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging_2.12;3.9.0
+[debug] 	found com.typesafe.scala-logging#scala-logging_2.12;3.9.0 in sbt-chain
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: com.google.inject#guice;4.1.0 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.1.0
@@ -252,6 +293,17 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.2.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.2.3
+[debug] 	found ch.qos.logback#logback-core;1.2.3 in sbt-chain
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: javax.inject#javax.inject;1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
@@ -345,6 +397,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -369,6 +433,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
@@ -377,6 +449,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->compile]
@@ -466,6 +550,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
@@ -550,6 +642,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -574,6 +678,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
@@ -582,6 +694,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->compile]
@@ -671,6 +795,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
@@ -767,6 +899,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -791,6 +935,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
@@ -799,6 +951,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->compile]
@@ -888,6 +1052,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
@@ -972,6 +1144,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -996,6 +1180,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
@@ -1004,6 +1196,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->compile]
@@ -1093,6 +1297,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
@@ -1200,6 +1412,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
@@ -1224,6 +1448,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile]
@@ -1232,6 +1464,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test->compile]
@@ -1321,6 +1565,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test->compile]
@@ -1412,6 +1664,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -1436,6 +1700,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
@@ -1444,6 +1716,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->compile]
@@ -1533,6 +1817,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
@@ -1619,6 +1911,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile-internal->compile]
@@ -1643,6 +1947,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile-internal->compile]
@@ -1651,6 +1963,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile-internal->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile-internal->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile-internal->compile]
@@ -1740,6 +2064,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile-internal->compile]
@@ -1828,6 +2160,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -1852,6 +2196,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
@@ -1860,6 +2212,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->compile]
@@ -1949,6 +2313,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
@@ -2033,6 +2405,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -2057,6 +2441,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
@@ -2065,6 +2457,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->compile]
@@ -2154,6 +2558,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
@@ -2239,6 +2651,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime-internal->compile]
@@ -2263,6 +2687,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime-internal->compile]
@@ -2271,6 +2703,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime-internal->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime-internal->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime-internal->compile]
@@ -2360,6 +2804,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime-internal->compile]
@@ -2449,6 +2901,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [compile->compile]
@@ -2473,6 +2937,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
@@ -2481,6 +2953,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [compile->compile]
@@ -2570,6 +3054,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [compile->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [compile->compile]
@@ -2654,6 +3146,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [runtime->compile]
@@ -2678,6 +3182,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
@@ -2686,6 +3198,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [runtime->compile]
@@ -2775,6 +3299,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [runtime->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [runtime->compile]
@@ -2879,6 +3411,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test->compile]
@@ -2903,6 +3447,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile]
@@ -2911,6 +3463,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test->compile]
@@ -3000,6 +3564,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test->compile]
@@ -3106,6 +3678,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.code.findbugs#jsr305;3.0.1 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-classic;1.2.3 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.guava#guava;19.0 [test-internal->compile]
@@ -3130,6 +3714,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->org.slf4j#slf4j-api;1.7.25 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test-internal->compile]
@@ -3138,6 +3730,18 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test-internal->compile(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.fasterxml.jackson.core#jackson-annotations;2.8.9 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->default]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->default(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.typesafe.scala-logging#scala-logging_2.12;3.9.0 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test-internal->default]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test-internal->runtime]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->com.google.inject#guice;4.1.0 [test-internal->compile]
@@ -3227,6 +3831,14 @@
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->net.codingwell#scala-guice_2.12;4.1.0 [test-internal->master]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->runtime(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->master(compile)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->compile(*)]
+[debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->ch.qos.logback#logback-core;1.2.3 [test-internal->master]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test-internal->compile]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test-internal->runtime(*)]
 [debug] == resolving dependencies de.htwg.se#sukaku-in-scala$sources;0.6.0->javax.inject#javax.inject;1 [test-internal->compile]
@@ -3304,185 +3916,69 @@
 [debug] == resolving dependencies for de.htwg.se#sukaku-in-scala$sources;0.6.0 [scoveragePlugin]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /home/daniel/.ivy2/local/org.scalactic/scalactic_2.12/3.0.5/srcs/scalactic_2.12-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.typesafe.play/play-functional_2.12/2.6.6/srcs/play-functional_2.12-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.google.inject.extensions/guice-multibindings/4.1.0/srcs/guice-multibindings-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.google.inject/guice/4.1.0/srcs/guice-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.typesafe.play/play-json_2.12/2.6.6/srcs/play-json_2.12-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.6/srcs/scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.9/srcs/jackson-datatype-jdk8-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.8.9/srcs/jackson-datatype-jsr310-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/org.scala-lang/scala-reflect/2.12.7/srcs/scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.google.guava/guava/19.0/srcs/guava-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.google.code.findbugs/jsr305/3.0.1/srcs/jsr305-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/org.typelevel/macro-compat_2.12/1.1.1/srcs/macro-compat_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.8.9/srcs/jackson-annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/org.scala-lang.modules/scala-swing_2.12/2.0.3/srcs/scala-swing_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/joda-time/joda-time/2.9.9/srcs/joda-time-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.8.9/srcs/jackson-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/org.scala-lang/scala-library/2.12.7/srcs/scala-library-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/net.codingwell/scala-guice_2.12/4.1.0/srcs/scala-guice_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/aopalliance/aopalliance/1.0/srcs/aopalliance-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.8.9/srcs/jackson-databind-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/javax.inject/javax.inject/1/srcs/javax.inject-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/org.scala-lang/scala-compiler/2.12.7/srcs/scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/org.scalatest/scalatest_2.12/3.0.5/srcs/scalatest_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar
-[debug] 		tried /home/daniel/.ivy2/local/jline/jline/2.14.6/srcs/jline-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar(src) (391ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (516ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src) (518ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0-sources.jar
-[info] 	[SUCCESSFUL ] net.codingwell#scala-guice_2.12;4.1.0!scala-guice_2.12.jar(src) (536ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar
-[info] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar(src) (520ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src) (591ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
-[info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;3.0.1!jsr305.jar(src) (661ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
-[info] 	[SUCCESSFUL ] aopalliance#aopalliance;1.0!aopalliance.jar(src) (636ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src) (716ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar(src) (744ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.google.inject.extensions#guice-multibindings;4.1.0!guice-multibindings.jar(src) (776ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src) (804ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar(src) (917ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.12;2.0.3!scala-swing_2.12.jar(src) (986ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src) (1409ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src) (1404ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.google.inject#guice;4.1.0!guice.jar(src) (2181ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src) (3870ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.9!joda-time.jar(src) (4490ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src) (4715ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.7!scala-library.jar(src) (4794ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;19.0!guava.jar(src) (5227ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src) (5255ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src) (5266ms)
-[debug] :: resolution report :: resolve 469ms :: artifacts dl 5311ms
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 compile produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-compile.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 runtime produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-runtime.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 test produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-test.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 provided produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-provided.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 optional produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-optional.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 compile-internal produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-compile-internal.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 runtime-internal produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-runtime-internal.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 test-internal produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-test-internal.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 plugin produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-plugin.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 pom produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-pom.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scala-tool produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-scala-tool.xml
-[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scoveragePlugin produced in /home/daniel/IdeaProjects/de.htwg.se.sukaku/target/scala-2.12/resolution-cache/reports/de.htwg.se-sukaku-in-scala$sources-scoveragePlugin.xml
-[debug] 	resolve done (469ms resolve - 5311ms download)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.6!play-functional_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.6!play-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.1!jsr305.jar(src)
+[debug] 		tried C:\Users\Administrator\.ivy2\local\ch.qos.logback\logback-classic\1.2.3\srcs\logback-classic-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
+[debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src)
+[debug] 		tried C:\Users\Administrator\.ivy2\local\org.slf4j\slf4j-api\1.7.25\srcs\slf4j-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src)
+[debug] 		tried C:\Users\Administrator\.ivy2\local\com.typesafe.scala-logging\scala-logging_2.12\3.9.0\srcs\scala-logging_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar
+[debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar
+[debug] 		tried C:\Users\Administrator\.ivy2\local\ch.qos.logback\logback-core\1.2.3\srcs\logback-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.12;2.0.3!scala-swing_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-multibindings;4.1.0!guice-multibindings.jar(src)
+[debug] 	[NOT REQUIRED] net.codingwell#scala-guice_2.12;4.1.0!scala-guice_2.12.jar(src)
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src) (504ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.scala-logging#scala-logging_2.12;3.9.0!scala-logging_2.12.jar(src) (502ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src) (524ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src) (496ms)
+[debug] :: resolution report :: resolve 728ms :: artifacts dl 596ms
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 compile produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-compile.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 runtime produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-runtime.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 test produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-test.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 provided produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-provided.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 optional produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-optional.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 compile-internal produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-compile-internal.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 runtime-internal produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-runtime-internal.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 test-internal produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-test-internal.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 plugin produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-plugin.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 pom produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-pom.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scala-tool produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-scala-tool.xml
+[debug] 	report for de.htwg.se#sukaku-in-scala$sources;0.6.0 scoveragePlugin produced in C:\Users\Administrator\IdeaProjects\de.htwg.se.sukaku\target\scala-2.12\resolution-cache\reports\de.htwg.se-sukaku-in-scala$sources-scoveragePlugin.xml
+[debug] 	resolve done (728ms resolve - 596ms download)
