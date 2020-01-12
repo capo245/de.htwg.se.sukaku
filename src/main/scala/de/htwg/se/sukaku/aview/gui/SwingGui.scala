@@ -24,7 +24,8 @@ class SwingGui(controller: ControllerInterface) extends Frame {
       val button = Button(if (index == 0) "" else index.toString) {
         controller.highlight(index)
       }
-      button.preferredSize_=(new Dimension(30, 30))
+//      button.preferredSize_=(new Dimension(30, 30))
+      button.preferredSize_=(new Dimension(80, 30))
       contents += button
       listenTo(button)
     }
