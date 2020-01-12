@@ -7,15 +7,15 @@
 		revision="0.6.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20200111202136"/>
+		date="20200112152913"/>
 	<dependencies>
 		<module organisation="net.codingwell" name="scala-guice_2.12">
 			<revision name="4.1.0" status="release" pubdate="20161124190045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/codingwell/scala-guice" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3433" time="0" location="C:\Users\Administrator\.ivy2\cache\net.codingwell\scala-guice_2.12\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0.pom"/>
+				<metadata-artifact status="no" details="" size="3395" time="0" location="/home/daniel/.ivy2/cache/net.codingwell/scala-guice_2.12/ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="scala-guice_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18462" time="0" location="C:\Users\Administrator\.ivy2\cache\net.codingwell\scala-guice_2.12\srcs\scala-guice_2.12-4.1.0-sources.jar">
+					<artifact name="scala-guice_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18462" time="536" location="/home/daniel/.ivy2/cache/net.codingwell/scala-guice_2.12/srcs/scala-guice_2.12-4.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -24,10 +24,10 @@
 		<module organisation="org.scala-lang.modules" name="scala-swing_2.12">
 			<revision name="2.0.3" status="release" pubdate="20180328220749" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="2817" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-swing_2.12\ivy-2.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3.pom"/>
+				<metadata-artifact status="no" details="" size="2783" time="0" location="/home/daniel/.ivy2/cache/org.scala-lang.modules/scala-swing_2.12/ivy-2.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="scala-swing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="81962" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-swing_2.12\srcs\scala-swing_2.12-2.0.3-sources.jar">
+					<artifact name="scala-swing_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="81962" time="986" location="/home/daniel/.ivy2/cache/org.scala-lang.modules/scala-swing_2.12/srcs/scala-swing_2.12-2.0.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.12/2.0.3/scala-swing_2.12-2.0.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -36,10 +36,10 @@
 		<module organisation="org.scalatest" name="scalatest_2.12">
 			<revision name="3.0.5" status="release" pubdate="20180129142347" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="4781" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scalatest\scalatest_2.12\ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom"/>
+				<metadata-artifact status="no" details="" size="4732" time="0" location="/home/daniel/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="scalatest_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1641808" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scalatest\scalatest_2.12\srcs\scalatest_2.12-3.0.5-sources.jar">
+					<artifact name="scalatest_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1641808" time="5255" location="/home/daniel/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -48,10 +48,10 @@
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.12.7" status="release" pubdate="20180927103203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.pom"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/daniel/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.6.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="590262" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.7-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="590262" time="3870" location="/home/daniel/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -60,10 +60,10 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.12.7" status="release" pubdate="20180927103542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="15">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/daniel/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.6.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/"/>
 				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991412" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.7-sources.jar">
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="991412" time="4794" location="/home/daniel/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -72,10 +72,10 @@
 		<module organisation="com.google.code.findbugs" name="jsr305">
 			<revision name="3.0.1" status="release" pubdate="20151009070635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3301" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3268" time="0" location="/home/daniel/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16622" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-3.0.1-sources.jar">
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16622" time="661" location="/home/daniel/.ivy2/cache/com.google.code.findbugs/jsr305/srcs/jsr305-3.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -84,10 +84,10 @@
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
 			<revision name="1.0.6" status="release" pubdate="20161101152105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="3024" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/home/daniel/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.0.6-sources.jar">
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="109199" time="516" location="/home/daniel/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -96,10 +96,10 @@
 		<module organisation="com.typesafe.play" name="play-json_2.12">
 			<revision name="2.6.6" status="release" pubdate="20170926015318" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="4897" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.play\play-json_2.12\ivy-2.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom"/>
+				<metadata-artifact status="no" details="" size="4849" time="0" location="/home/daniel/.ivy2/cache/com.typesafe.play/play-json_2.12/ivy-2.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.6.6" rev-constraint-default="2.6.6" rev-constraint-dynamic="2.6.6" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="play-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48417" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.play\play-json_2.12\srcs\play-json_2.12-2.6.6-sources.jar">
+					<artifact name="play-json_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="48417" time="744" location="/home/daniel/.ivy2/cache/com.typesafe.play/play-json_2.12/srcs/play-json_2.12-2.6.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.6/play-json_2.12-2.6.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -108,10 +108,10 @@
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
 			<revision name="2.8.9" status="release" pubdate="20170612070823" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="21341" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="21226" time="0" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62123" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\srcs\jackson-datatype-jsr310-2.8.9-sources.jar">
+					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="62123" time="804" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.8.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -120,10 +120,10 @@
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
 			<revision name="2.8.9" status="release" pubdate="20170612070811" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="21045" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="20932" time="0" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20320" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\srcs\jackson-datatype-jdk8-2.8.9-sources.jar">
+					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="20320" time="716" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.8.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -132,10 +132,10 @@
 		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
 			<revision name="2.8.9" status="release" pubdate="20170612025351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="8225" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="8156" time="0" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="929913" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.8.9-sources.jar">
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="929913" time="4715" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -144,10 +144,10 @@
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
 			<revision name="2.8.9" status="release" pubdate="20170612023719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57660" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.8.9-sources.jar">
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="57660" time="591" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -156,10 +156,10 @@
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
 			<revision name="2.8.9" status="release" pubdate="20170612024341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="7486" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
+				<metadata-artifact status="no" details="" size="7423" time="0" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294668" time="0" location="C:\Users\Administrator\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.8.9-sources.jar">
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="294668" time="1404" location="/home/daniel/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -168,10 +168,10 @@
 		<module organisation="joda-time" name="joda-time">
 			<revision name="2.9.9" status="release" pubdate="20170323143313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="6719" time="0" location="C:\Users\Administrator\.ivy2\cache\joda-time\joda-time\ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<metadata-artifact status="no" details="" size="6647" time="0" location="/home/daniel/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="778815" time="0" location="C:\Users\Administrator\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.9.9-sources.jar">
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="778815" time="4490" location="/home/daniel/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -180,10 +180,10 @@
 		<module organisation="org.typelevel" name="macro-compat_2.12">
 			<revision name="1.1.1" status="release" pubdate="20161102094258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\Administrator\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/daniel/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="C:\Users\Administrator\.ivy2\cache\org.typelevel\macro-compat_2.12\srcs\macro-compat_2.12-1.1.1-sources.jar">
+					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1052" time="518" location="/home/daniel/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -192,10 +192,10 @@
 		<module organisation="com.typesafe.play" name="play-functional_2.12">
 			<revision name="2.6.6" status="release" pubdate="20170926015243" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="2718" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.play\play-functional_2.12\ivy-2.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="/home/daniel/.ivy2/cache/com.typesafe.play/play-functional_2.12/ivy-2.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="2.6.6" rev-constraint-default="2.6.6" rev-constraint-dynamic="2.6.6" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="play-functional_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9836" time="0" location="C:\Users\Administrator\.ivy2\cache\com.typesafe.play\play-functional_2.12\srcs\play-functional_2.12-2.6.6-sources.jar">
+					<artifact name="play-functional_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9836" time="391" location="/home/daniel/.ivy2/cache/com.typesafe.play/play-functional_2.12/srcs/play-functional_2.12-2.6.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.6/play-functional_2.12-2.6.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -204,10 +204,10 @@
 		<module organisation="org.scalactic" name="scalactic_2.12">
 			<revision name="3.0.5" status="release" pubdate="20180129142214" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3002" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scalactic\scalactic_2.12\ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom"/>
+				<metadata-artifact status="no" details="" size="2967" time="0" location="/home/daniel/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="scalactic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201169" time="0" location="C:\Users\Administrator\.ivy2\cache\org.scalactic\scalactic_2.12\srcs\scalactic_2.12-3.0.5-sources.jar">
+					<artifact name="scalactic_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="201169" time="1409" location="/home/daniel/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -216,10 +216,10 @@
 		<module organisation="com.google.inject.extensions" name="guice-multibindings">
 			<revision name="4.1.0" status="release" pubdate="20160617215348" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="5356" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.inject.extensions\guice-multibindings\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0.pom"/>
+				<metadata-artifact status="no" details="" size="5303" time="0" location="/home/daniel/.ivy2/cache/com.google.inject.extensions/guice-multibindings/ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="guice-multibindings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44340" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.inject.extensions\guice-multibindings\srcs\guice-multibindings-4.1.0-sources.jar">
+					<artifact name="guice-multibindings" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44340" time="776" location="/home/daniel/.ivy2/cache/com.google.inject.extensions/guice-multibindings/srcs/guice-multibindings-4.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -228,10 +228,10 @@
 		<module organisation="com.google.inject" name="guice">
 			<revision name="4.1.0" status="release" pubdate="20160617215314" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="5708" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.inject\guice\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0.pom"/>
+				<metadata-artifact status="no" details="" size="5652" time="0" location="/home/daniel/.ivy2/cache/com.google.inject/guice/ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="310663" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.inject\guice\srcs\guice-4.1.0-sources.jar">
+					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="310663" time="2181" location="/home/daniel/.ivy2/cache/com.google.inject/guice/srcs/guice-4.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -240,10 +240,10 @@
 		<module organisation="com.google.guava" name="guava">
 			<revision name="19.0" status="release" pubdate="20151209215835" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="6414" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.guava\guava\ivy-19.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom"/>
+				<metadata-artifact status="no" details="" size="6356" time="0" location="/home/daniel/.ivy2/cache/com.google.guava/guava/ivy-19.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="19.0" rev-constraint-default="19.0" rev-constraint-dynamic="19.0" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1319216" time="0" location="C:\Users\Administrator\.ivy2\cache\com.google.guava\guava\srcs\guava-19.0-sources.jar">
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1319216" time="5227" location="/home/daniel/.ivy2/cache/com.google.guava/guava/srcs/guava-19.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -252,10 +252,10 @@
 		<module organisation="aopalliance" name="aopalliance">
 			<revision name="1.0" status="release" pubdate="20070226234340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
 				<license name="Public Domain"/>
-				<metadata-artifact status="no" details="" size="2447" time="0" location="C:\Users\Administrator\.ivy2\cache\aopalliance\aopalliance\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<metadata-artifact status="no" details="" size="2417" time="0" location="/home/daniel/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="C:\Users\Administrator\.ivy2\cache\aopalliance\aopalliance\srcs\aopalliance-1.0-sources.jar">
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21188" time="636" location="/home/daniel/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -264,10 +264,10 @@
 		<module organisation="javax.inject" name="javax.inject">
 			<revision name="1" status="release" pubdate="20091014013500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2536" time="0" location="C:\Users\Administrator\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/daniel/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
 				<caller organisation="de.htwg.se" name="sukaku-in-scala$sources" conf="test, compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="0.6.0"/>
 				<artifacts>
-					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="C:\Users\Administrator\.ivy2\cache\javax.inject\javax.inject\srcs\javax.inject-1-sources.jar">
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10928" time="520" location="/home/daniel/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
 					</artifact>
 				</artifacts>
