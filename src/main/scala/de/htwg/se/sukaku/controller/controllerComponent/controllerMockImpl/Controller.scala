@@ -1,12 +1,12 @@
 package de.htwg.se.sukaku.controller.controllerComponent.controllerMockImpl
 
-import de.htwg.se.sukaku.controller.controllerComponent.{ControllerInterface, GameStatus}
+import de.htwg.se.sukaku.controller.controllerComponent.{ ControllerInterface, GameStatus }
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus.GameStatus
-import de.htwg.se.sukaku.model.gridComponent.{CellInterface, GridInterface}
+import de.htwg.se.sukaku.model.gridComponent.{ CellInterface, GridInterface }
 import de.htwg.se.sukaku.model.gridComponent.gridMockImpl.Grid
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus._
 
-class Controller(var grid: GridInterface) extends ControllerInterface{
+class Controller(var grid: GridInterface) extends ControllerInterface {
 
   grid = new Grid(1)
 
@@ -14,10 +14,8 @@ class Controller(var grid: GridInterface) extends ControllerInterface{
 
   override def blockSize: Int = 1
 
-  override def createEmptyGrid(size: Int): Unit = {}
+  override def createEmptyGrid: Unit = {}
 
-  override def createRandomGrid(size: Int, randomCells: Int): Unit = {}
-  //Added
   override def createNewGrid: Unit = {}
 
   override def undo: Unit = {}
@@ -55,4 +53,8 @@ class Controller(var grid: GridInterface) extends ControllerInterface{
   override def gameStatus: GameStatus = IDLE
 
   override def statusText: String = GameStatus.message(gameStatus)
+
+  override def save: Unit = {}
+
+  override def load: Unit = {}
 }

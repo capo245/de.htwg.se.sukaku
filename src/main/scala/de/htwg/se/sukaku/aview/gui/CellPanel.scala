@@ -3,13 +3,13 @@ package de.htwg.se.sukaku.aview.gui
 import scala.swing._
 import scala.swing.event._
 
-import de.htwg.se.sukaku.controller.controllerComponent.{CellChanged, ControllerInterface}
+import de.htwg.se.sukaku.controller.controllerComponent.{ CellChanged, ControllerInterface }
 
 class CellPanel(row: Int, column: Int, controller: ControllerInterface) extends FlowPanel {
 
   val givenCellColor = new Color(100, 120, 155)
   val cellColor = new Color(124, 224, 155)
-  val highlightedCellColor = new Color(192, 55, 92)
+  val highlightedCellColor = new Color(192, 55, 192)
 
   def myCell = controller.cell(row, column)
 
@@ -18,14 +18,14 @@ class CellPanel(row: Int, column: Int, controller: ControllerInterface) extends 
   val label =
     new Label {
       text = cellText(row, column)
-      font = new Font("SansSerif", 1, 36)
+      font = new Font("SansSerif", 75, 40)
     }
 
   val cell = new BoxPanel(Orientation.Vertical) {
     contents += label
-    preferredSize = new Dimension(75, 40)
+    preferredSize = new Dimension(51, 51)
     background = if (controller.isGiven(row, column)) givenCellColor else cellColor
-    border = Swing.BeveledBorder(Swing.Lowered)
+    border = Swing.BeveledBorder(Swing.Raised)
     listenTo(mouse.clicks)
     listenTo(controller)
     reactions += {
@@ -44,9 +44,8 @@ class CellPanel(row: Int, column: Int, controller: ControllerInterface) extends 
     (value =>
       new Label {
         text = if (controller.available(row, column).contains(value)) value.toString else " "
-        //geht nicht
         preferredSize = new Dimension(17, 47)
-        font = new Font("Verdana", 1, 9)
+        font = new Font("SansSerif", 1, 9)
         background = cellColor
         border = Swing.BeveledBorder(Swing.Raised)
         listenTo(mouse.clicks)

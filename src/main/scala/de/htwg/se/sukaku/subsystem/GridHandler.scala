@@ -1,5 +1,5 @@
 package de.htwg.se.sukaku.subsystem
-
+/*
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus._
 import de.htwg.se.sukaku.controller.controllerComponent._
 import de.htwg.se.sukaku.model.gridComponent.GridInterface
@@ -33,3 +33,5 @@ class GridHandler(var grid: GridInterface) {
 
 
 }
+*(
+ */

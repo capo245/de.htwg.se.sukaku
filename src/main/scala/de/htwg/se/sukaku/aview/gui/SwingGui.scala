@@ -1,13 +1,10 @@
 package de.htwg.se.sukaku.aview.gui
 
-import de.htwg.se.sukaku.controller.controllerComponent.{CandidatesChanged, CellChanged, ControllerInterface, GridSizeChanged}
+import de.htwg.se.sukaku.controller.controllerComponent.{ CandidatesChanged, CellChanged, ControllerInterface, GridSizeChanged }
 
 import scala.swing._
 import scala.swing.Swing.LineBorder
 import scala.swing.event._
-import de.htwg.se.sukaku.controller._
-
-import scala.io.Source._
 
 class CellClicked(val row: Int, val column: Int) extends Event
 
@@ -15,16 +12,15 @@ class SwingGui(controller: ControllerInterface) extends Frame {
 
   listenTo(controller)
 
-  title = "Sukaku"
+  title = "HTWG Sukaku"
   var cells = Array.ofDim[CellPanel](controller.gridSize, controller.gridSize)
 
   def highlightpanel = new FlowPanel {
     contents += new Label("Highlight:")
-    for {index <- 0 to controller.gridSize} {
-      val button = Button(if (index == 0) "" else index.toString) {
+    for { index <- 0 to controller.gridSize } {
+      val button = Button(if (index == 0) "?" else index.toString) {
         controller.highlight(index)
       }
-//      button.preferredSize_=(new Dimension(30, 30))
       button.preferredSize_=(new Dimension(80, 30))
       contents += button
       listenTo(button)
@@ -38,12 +34,11 @@ class SwingGui(controller: ControllerInterface) extends Frame {
       outerRow <- 0 until controller.blockSize
       outerColumn <- 0 until controller.blockSize
     } {
-      // fix ? check result
-      contents += new GridPanel((controller.blockSize - 1), (controller.blockSize)) {
+      contents += new GridPanel(controller.blockSize - 1, controller.blockSize) {
         border = LineBorder(java.awt.Color.YELLOW, 2)
         for {
-          innerRow <- 0 until (controller.blockSize)
-          innerColumn <- 0 until (controller.blockSize)
+          innerRow <- 0 until controller.blockSize
+          innerColumn <- 0 until controller.blockSize
         } {
           val x = outerRow * controller.blockSize + innerRow
           val y = outerColumn * controller.blockSize + innerColumn
@@ -66,14 +61,16 @@ class SwingGui(controller: ControllerInterface) extends Frame {
   menuBar = new MenuBar {
     contents += new Menu("File") {
       mnemonic = Key.F
-      contents += new MenuItem(Action("New") { controller.createEmptyGrid(controller.gridSize) })
-      contents += new MenuItem(Action("Random") { controller.createRandomGrid(controller.gridSize,controller.gridSize) })
+      contents += new MenuItem(Action("Empty") { controller.createEmptyGrid })
+      contents += new MenuItem(Action("New") { controller.createNewGrid })
+      contents += new MenuItem(Action("Save") { controller.save })
+      contents += new MenuItem(Action("Load") { controller.load })
       contents += new MenuItem(Action("Quit") { System.exit(0) })
     }
     contents += new Menu("Edit") {
       mnemonic = Key.E
-            contents += new MenuItem(Action("Undo") { controller.undo })
-            contents += new MenuItem(Action("Redo") { controller.redo })
+      contents += new MenuItem(Action("Undo") { controller.undo })
+      contents += new MenuItem(Action("Redo") { controller.redo })
     }
     contents += new Menu("Solve") {
       mnemonic = Key.S
@@ -100,7 +97,7 @@ class SwingGui(controller: ControllerInterface) extends Frame {
 
   reactions += {
     case event: GridSizeChanged => resize(event.newSize)
-    case event: CellChanged     => redraw
+    case event: CellChanged => redraw
     case event: CandidatesChanged => redraw
   }
 

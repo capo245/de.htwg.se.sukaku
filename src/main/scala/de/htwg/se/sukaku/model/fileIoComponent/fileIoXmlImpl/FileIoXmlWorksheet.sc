@@ -1,6 +1,5 @@
 package de.htwg.se.sukaku.model.fileIoComponent.fileIoXmlImpl
 
-
 import de.htwg.se.sukaku.model.gridComponent.gridAdvancedImpl.Grid
 
 object ioWorksheet {

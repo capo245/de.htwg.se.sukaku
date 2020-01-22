@@ -44,4 +44,3 @@ class CommandSpec extends WordSpec with Matchers {
   }
 }
 
-

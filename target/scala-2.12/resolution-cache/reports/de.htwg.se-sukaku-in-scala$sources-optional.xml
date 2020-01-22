@@ -4,10 +4,10 @@
 	<info
 		organisation="de.htwg.se"
 		module="sukaku-in-scala$sources"
-		revision="0.6.0"
+		revision="0.14.0"
 		conf="optional"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20200112173939"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20200122214349"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

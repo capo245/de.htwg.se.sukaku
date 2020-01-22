@@ -1,5 +1,5 @@
 package de.htwg.se.sukaku.fascade
-
+/*
 import de.htwg.se.sukaku.controller.controllerComponent.GameStatus._
 import de.htwg.se.sukaku.controller.controllerComponent._
 import de.htwg.se.sukaku.model.gridComponent.GridInterface
@@ -25,3 +25,5 @@ class GridControllerFacade(var grid: GridInterface) {
 
 
 }
+
+ */

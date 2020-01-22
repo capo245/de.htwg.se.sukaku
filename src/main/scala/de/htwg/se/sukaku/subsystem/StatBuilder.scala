@@ -1,4 +1,6 @@
 package de.htwg.se.sukaku.subsystem
+
+package de.htwg.se.sukaku.subsystem
 //Type safe builder pattern
 import java.util.{Calendar, Date}
 
