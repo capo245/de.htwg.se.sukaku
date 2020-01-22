@@ -7,7 +7,7 @@
 		revision="0.14.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200122214349"/>
+		date="20200122221457"/>
 	<dependencies>
 		<module organisation="net.codingwell" name="scala-guice_2.12">
 			<revision name="4.1.0" status="release" pubdate="20161124190045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/codingwell/scala-guice" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
